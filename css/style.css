@@ -3,113 +3,49 @@ Awakelab
 Full Stack Python 2020
 */
 
-#competencias, #contacto {
-    padding-top: 60px;
-    min-height: 700px;
+
+.navbar {
+    background-color: rgb(255, 255, 255);
 }
 
-#principal {
-    padding: 75px 2% 20px;
-    min-height: 400px;
-}
-
-#competencias>div>h3 {
-    color: white;
-}
-
-#equipo {
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
-#enlaces {
-    color: rgb(255, 255, 255);
-    padding-top: 60px;
-    border-radius: 10px;
-    min-height: 100%;
-    background-color: rgba(2, 20, 28, 0.79);
-}
-
-.navbar a {
-    font-weight: bold;
-}
-
-.navbar-dark {
-    background-color: black;
-}
-
-h1, h2, h3, h4, h5, h6, .navbar, .modal {
-    font-family: 'Poiret One', cursive;
+h1, h2, h3, h4, h5, h6, .navbar{
     text-align: center;
 }
 
 .bg-principal {
-    background-image: url('../img/fondoenlaces.jpeg');
+    background-image: url('../img/bannertop.png');
     background-size: cover;
 }
 
-.jumbotron {
-    text-align: center;
-    color: rgb(255, 255, 255);
-    background: rgb(114, 215, 255);
-    /* Para navegadores antiguos */
-    background: rgba(2, 20, 28, 0.79);
-    width: 100%;
-    height: 100px;
-    margin: 2px;
-    padding: 15px;
-}
-
-.dentrodejumbotron {
-    margin: 2px;
-    padding: 15px;
-    width: 100%;
-}
-
-.card {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.media {
-    margin: 20px 5% 50px 10%;
-}
-
-#contact-form {
-    padding-top: 3rem;
-}
-
-textarea {
-    resize: none;
-}
 
 .footer p {
     display: inline;
 }
-
-.block {
+.blockcontent{
+    padding: 80px;
     margin: auto;
-    margin-top: 12px;
-    margin-bottom: 12px;
-    padding: 10px;
-    border: 1px solid;
+
+
+}
+.block {
+    padding: 45px;
+    border: 2px solid;
     border-color: rgba(199, 28, 225, 0.715);
     border-radius: 15px;
 }
 
 .medins {
-    width: 55px;
+    width: 70px;
     position: absolute;
     top: 12px;
-    left: 20px;
+    left: 60px;
 }
 
 .medins2 {
-    width: 55px;
+    width: 70px;
     position: absolute;
     top: 12px;
-    right: 5px;
-    
+    right: 50px;
 }
 
 ul {
@@ -124,13 +60,6 @@ ul {
     margin: 5px;
 }
 
-.grandcont{
-    width: 80%;
-}
-
-.titulo{
-    text-align: center;
-}
 
 .piedepag{
 
