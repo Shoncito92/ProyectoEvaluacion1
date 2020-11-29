@@ -5,22 +5,41 @@ Full Stack Python 2020
 
 
 .navbar {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.631);
+    color:#ffffff;
+    border-radius: 12px;
+    margin: 10px;
+    padding: 5px;
+    color
 }
 
-h1, h2, h3, h4, h5, h6, .navbar{
+.cartbar{
+    border-radius: 10px;
+}
+
+h6{
+    color: #fff;
+}
+h1, h2, h3, h4, h5, h6{
     text-align: center;
 }
 
 .bg-principal {
     background-image: url('../img/bannertop.png');
     background-size: cover;
+   
 }
 
+.bg-fondo {
+    background-image: url('../img/background.jpg');
+    background-size: cover;
 
-.footer p {
-    display: inline;
 }
+
+.bg-block{
+    height: 100%;
+}
+
 .blockcontent{
     padding: 80px;
     margin: auto;
@@ -61,9 +80,11 @@ ul {
 }
 
 
-.piedepag{
-
+.piedepag, p{
+    display: inline;
+    height: 30px;
     border-radius: 20px;
     margin: 15px;
-    padding: 10px;
+    padding: 2.5px;
+    bottom: 0px;
 }
