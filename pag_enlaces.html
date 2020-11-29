@@ -2,20 +2,18 @@
 <html lang="es">
 
 <head>
-    <title>Awakelab Full Stack Python</title>
+    <title>ENLACES</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Loading Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet" type="text/css">
+    <!-- CARGANDO BOOTSTRAP Y CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <!-- Barra de Navegacion-->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <h3><strong>INDICE ENLACES MEDICOS</strong></h3>
+    <!--BARRA SUPERIOR BLANCA-->
+    <nav class="navbar navbar-sm navbar-light sticky-top">
+        <h3>INDICE ENLACES MEDICOS</h3>
 
         <!-- Navigation Bar Hamburger-->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
@@ -28,7 +26,7 @@
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
                     <a class="nav-link scroll-trigger" href="pag_principal_publica.html">
-                        Volver a Pagina de INICIO -->
+                        VOLVER A INICIO!
                     </a>
                 </li>
             </ul>
@@ -36,19 +34,38 @@
         </div>
         <!-- Navigation Links -->
     </nav>
-    <!-- Fin Barra de Navegacion -->
 
+    <!--NAVEGADOR DE CARTAS-->
+    <ul class="nav nav-tabs nav nav-pills nav-justified" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="hospital-tab" data-toggle="tab" href="#hospital" role="tab" aria-controls="hospital"
+                aria-selected="false">HOSPITALES</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="clinica-tab" data-toggle="tab" href="#clinica" role="tab" aria-controls="clinica"
+                aria-selected="false">CLINICAS</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="ambulancia-tab" data-toggle="tab" href="#ambulancia" role="tab"
+                aria-controls="ambulancia" aria-selected="false">AMBULANCIAS</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="medico-tab" data-toggle="tab" href="#medico" role="tab" aria-controls="medico"
+                aria-selected="false">MEDICOS INSCRITOS</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="ssocial-tab" data-toggle="tab" href="#ssocial" role="tab" aria-controls="ssocial"
+                aria-selected="false">SEGURO SOCIAL</a>
+        </li>
+    </ul>
 
-    <!--  Section: CONTENEDOR/FONDO -->
-    <div class="dentrodejumbotron bg-principal">
-        <!-- Section: Enlaces -->
-        <div class="container-fluid grandcont" id="enlaces">
-            <h3>Sitios de Interes</h3>
-            <div class="row">
-                <div class="col-md-6">
+    <!--NAVEGADOR DE CARTAS // CONTENIDO-->
+    <div class="tab-content bg-principal" id="myTabContent">
+        <div class="tab-pane fade" id="hospital" role="tabpanel" aria-labelledby="hospital-tab">
+            <div class="blockcontent">
+                <div class="col-md-6 container-fluid">
                     <div class="media block">
-
-                        <div class="media-body">
+                        <div class="media-body" id="home">
                             <img class="d-flex mr-3 medins" src="img/flag-64.png" alt="Generic placeholder image">
                             <img class="d-flex mr-3 medins2" src="img/flag-64.png" alt="Generic placeholder image">
                             <h5 class="mt-0">Hospitales</h5>
@@ -66,9 +83,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+            </div>
+        </div>
+        <div class="tab-pane fade" id="clinica" role="tabpanel" aria-labelledby="clinica-tab">
+            <div class="blockcontent">
+                <div class="col-md-6 container-fluid">
                     <div class="media block">
-
                         <div class="media-body">
                             <img class="d-flex mr-3 medins" src="img/world-64.png" alt="Generic placeholder image">
                             <img class="d-flex mr-3 medins2" src="img/world-64.png" alt="Generic placeholder image">
@@ -78,108 +98,152 @@
                                 <li>INDISA<a href="https://www.indisa.cl/" class="badge badge-danger spacebtn">Ver
                                         más!</a></li>
                                 <li>POLICENTER<a href="https://www.policenter.cl/#/"
-                                        class="badge badge-danger spacebtn">Ver más!</a></li>
+                                        class="badge badge-danger spacebtn">Ver
+                                        más!</a></li>
                                 <li>SANTA MARIA <a href="https://www.clinicasantamaria.cl/"
                                         class="badge badge-danger spacebtn">Ver más!</a></li>
                                 <li>VESPUCIO<a href="http://www.clinicavespucio.cl/"
-                                        class="badge badge-danger spacebtn">Ver más!</a></li>
+                                        class="badge badge-danger spacebtn">Ver
+                                        más!</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-6">
+        </div>
+        <div class="tab-pane fade" id="ambulancia" role="tabpanel" aria-labelledby="ambulancia-tab">
+            <div class="blockcontent">
+                <div class="col-md-6 container-fluid">
                     <div class="media block">
-
-                        <div class="media-body">
-                            <img class="d-flex mr-3 medins" src="img/screen-64.png" alt="Generic placeholder image">
-                            <img class="d-flex mr-3 medins2" src="img/screen-64.png" alt="Generic placeholder image">
-                            <h5 class="mt-0">Isapre/Fonasa</h5>
-                            <hr>
-                            <ul>
-                                <li>Enlace de interés del grupo <a href="#" class="badge badge-danger spacebtn">Ver
-                                        más!</a></li>
-                                <li>Enlace de interés del grupo <a href="#" class="badge badge-danger spacebtn">Ver
-                                        más!</a></li>
-                                <li>Enlace de interés del grupo <a href="#" class="badge badge-danger spacebtn">Ver
-                                        más!</a></li>
-                                <li>Enlace de interés del grupo <a href="#" class="badge badge-danger spacebtn">Ver
-                                        más!</a></li>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="media block">
-
                         <div class="media-body">
                             <img class="d-flex mr-3 medins" src="img/gear-64.png" alt="Generic placeholder image">
                             <img class="d-flex mr-3 medins2" src="img/gear-64.png" alt="Generic placeholder image">
                             <h5 class="mt-0">Ambulancias</h5>
                             <hr>
                             <ul>
-                                <li>Enlace de interés del grupo <a href="#" class="badge badge-danger spacebtn">Ver
+                                <li>TRAS MED ! <a href="https://trasmed.cl/" class="badge badge-danger spacebtn">Ver
                                         más!</a></li>
-                                <li>Enlace de interés del grupo <a href="#" class="badge badge-danger spacebtn">Ver
+                                <li>Metropolitan CARE <a href="http://metropolitancare.cl/"
+                                        class="badge badge-danger spacebtn">Ver
                                         más!</a></li>
-                                <li>Enlace de interés del grupo <a href="#" class="badge badge-danger spacebtn">Ver
+                                <li>Unidad Coronaria Movil - UCM <a href="https://www.ucmchile.cl/"
+                                        class="badge badge-danger spacebtn">Ver
                                         más!</a></li>
-                                <li>Enlace de interés del grupo <a href="#" class="badge badge-danger spacebtn">Ver
+                                <li>Life MED Urgencias medicas <a href="http://www.lifemed.cl/web/"
+                                        class="badge badge-danger spacebtn">Ver
                                         más!</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-
-                <div class="col-md-6">
-
+        </div>
+        <div class="tab-pane fade" id="medico" role="tabpanel" aria-labelledby="medico-tab">
+            <div class="blockcontent">
+                <div class="col-md-6 container-fluid">
                     <div class="media block">
-
-
                         <div class="media-body">
                             <img class="d-flex mr-3 medins" src="img/screen-64.png" alt="Generic placeholder image">
                             <img class="d-flex mr-3 medins2" src="img/screen-64.png" alt="Generic placeholder image">
                             <h5 class="mt-0">Medicos Inscritos</h5>
                             <hr>
-                            <ul>
-                                <li>Enlace de interés del grupo <a href="#" class="badge badge-danger spacebtn">Ver
-                                        más!</a></li>
-                                <li>Enlace de interés del grupo <a href="#" class="badge badge-danger spacebtn">Ver
-                                        más!</a></li>
-                                <li>Enlace de interés del grupo <a href="#" class="badge badge-danger spacebtn">Ver
-                                        más!</a></li>
-                                <li>Enlace de interés del grupo <a href="#" class="badge badge-danger spacebtn">Ver
-                                        más!</a></li>
+                            <!--MEDICO 1-->
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4">
+                                        <img src="img/medico1.JPG"
+                                            class="card-img" alt="MEDICO">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Dra. Valeska Glasinovich Bobic</h5>
+                                            <p class="card-text">Pediatria Adulto/Niño especializada</p>
+                                            <p class="card-text"><small class="text-muted">Actualizado hace 3 Dias</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                              <!--MEDICO 2-->
+                              <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4">
+                                        <img src="img/medico2.JPG"
+                                            class="card-img" alt="MEDICO">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title"> Dr. Dave Mustaine Hetfield</h5>
+                                            <p class="card-text">Traumatologia y Resonancia</p>
+                                            <p class="card-text"><small class="text-muted">Actualizado hace 3 Años</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--MEDICO 3-->
+
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4">
+                                        <img src="img/Medico3.JPG"
+                                            class="card-img" alt="MEDICO">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Dra. Yoko Ono SquarePants </h5>
+                                            <p class="card-text">Telemedicina Broncopulmonar Adulto </p>
+                                            <p class="card-text"><small class="text-muted">Actualizado hace 1 Hora</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--FIN MEDICOS-->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- End Section: Enlaces -->
-        <!-- End Section: CONTENEDOR/FONDO -->
+        <div class="tab-pane fade" id="ssocial" role="tabpanel" aria-labelledby="ssocial-tab">
+            <div class="blockcontent">
+                <div class="col-md-6 container-fluid">
+                    <div class="media block">
+                        <div class="media-body">
+                            <img class="d-flex mr-3 medins" src="img/screen-64.png" alt="Generic placeholder image">
+                            <img class="d-flex mr-3 medins2" src="img/screen-64.png" alt="Generic placeholder image">
+                            <h5 class="mt-0">Isapre/Fonasa</h5>
+                            <hr>
+                            <ul>
+                                <li>FONASA <a href="https://www.fonasa.cl/sites/fonasa/inicio"
+                                        class="badge badge-danger spacebtn">Ver
+                                        más!</a></li>
+                                <li>INDICE EXTERNO DE ISAPRES <a href="https://www.isapre.cl/mas-sitios"
+                                        class="badge badge-danger spacebtn">Ver
+                                        más!</a></li>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-        <footer class="footer bg-dark text-center piedepag">
-            <h4>
-                <p class="text-muted">&copy; 2020 Awakelab.</p>
-            </h4>
-            <h4>
-                <p class="text-muted">Grupo Full Stack Python</p>
-            </h4>
-        </footer>
+    <!--PIE DE PAGINA-->
+    <footer class="footer bg-dark text-center piedepag">
+        <p class="text-muted">&copy; 2020 Awakelab.</p>
+        <p class="text-muted">Grupo Full Stack Python</p>
+    </footer>
 
-        <!-- jQuery, Popper.js, Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-            </script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-            </script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-            </script>
+
+    <!-- jQuery, Popper.js, Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>

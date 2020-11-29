@@ -3,6 +3,7 @@ Awakelab
 Full Stack Python 2020
 */
 
+<<<<<<< HEAD
 #competencias,
 #contacto {
     padding-top: 60px;
@@ -82,6 +83,15 @@ Full Stack Python 2020
 
 h1, h2, h3, h4, h5, h6, .navbar, .modal { 
     font-family: 'Poiret One', cursive;
+=======
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+}
+
+h1, h2, h3, h4, h5, h6, .navbar{
+    text-align: center;
+>>>>>>> 9f08bff9bd1a7f47c71ed74a184cb9a1f1fbdfc0
 }
 
 .team-carousel, .carousel-item {
@@ -89,6 +99,7 @@ h1, h2, h3, h4, h5, h6, .navbar, .modal {
     margin-left: auto;
 }
 .bg-principal {
+<<<<<<< HEAD
     background-image: url('../img/background.jpg');
     background-size: cover;
 }
@@ -118,4 +129,59 @@ textarea {
 
 .footer p {
     display: inline;
+=======
+    background-image: url('../img/bannertop.png');
+    background-size: cover;
+}
+
+
+.footer p {
+    display: inline;
+}
+.blockcontent{
+    padding: 80px;
+    margin: auto;
+
+
+}
+.block {
+    padding: 45px;
+    border: 2px solid;
+    border-color: rgba(199, 28, 225, 0.715);
+    border-radius: 15px;
+}
+
+.medins {
+    width: 70px;
+    position: absolute;
+    top: 12px;
+    left: 60px;
+}
+
+.medins2 {
+    width: 70px;
+    position: absolute;
+    top: 12px;
+    right: 50px;
+}
+
+ul {
+    text-align: center;
+}
+
+.spacebtn {
+    margin: 10px 0px 0px 10px;
+}
+
+.btn{
+    margin: 5px;
+}
+
+
+.piedepag{
+
+    border-radius: 20px;
+    margin: 15px;
+    padding: 10px;
+>>>>>>> 9f08bff9bd1a7f47c71ed74a184cb9a1f1fbdfc0
 }
