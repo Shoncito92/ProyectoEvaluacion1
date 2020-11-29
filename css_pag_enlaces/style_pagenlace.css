@@ -1,0 +1,69 @@
+/*
+Awakelab
+Full Stack Python 2020
+*/
+
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+}
+
+h1, h2, h3, h4, h5, h6, .navbar{
+    text-align: center;
+}
+
+.bg-principal {
+    background-image: url('../img/bannertop.png');
+    background-size: cover;
+}
+
+
+.footer p {
+    display: inline;
+}
+.blockcontent{
+    padding: 80px;
+    margin: auto;
+
+
+}
+.block {
+    padding: 45px;
+    border: 2px solid;
+    border-color: rgba(199, 28, 225, 0.715);
+    border-radius: 15px;
+}
+
+.medins {
+    width: 70px;
+    position: absolute;
+    top: 12px;
+    left: 60px;
+}
+
+.medins2 {
+    width: 70px;
+    position: absolute;
+    top: 12px;
+    right: 50px;
+}
+
+ul {
+    text-align: center;
+}
+
+.spacebtn {
+    margin: 10px 0px 0px 10px;
+}
+
+.btn{
+    margin: 5px;
+}
+
+
+.piedepag{
+
+    border-radius: 20px;
+    margin: 15px;
+    padding: 10px;
+}
