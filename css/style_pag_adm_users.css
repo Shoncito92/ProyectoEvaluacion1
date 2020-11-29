@@ -1,91 +1,40 @@
-/*
-Awakelab
-Full Stack Python 2020
-*/
+.Contenedorprincipal {
+    margin-top: 96px;
+    width: 94%;
+    height: 520px;
+    padding: 9px;
+    border-radius: 25px;
+    background-color: aqua;
+    ;
+}
 
+.Contenedorprincipalhijo {
+    margin-top: 2px;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: rgb(219, 245, 255);
+    height: 500px;
+}
 
-.navbar {
-    background-color: rgba(0, 0, 0, 0.631);
-    color:#ffffff;
-    border-radius: 12px;
+.col {
     margin: 10px;
-    padding: 5px;
-    color
 }
 
-.cartbar{
-    border-radius: 10px;
+.form-control-sm {
+    width: 45%;
 }
 
-h6{
-    color: #fff;
-}
-h1, h2, h3, h4, h5, h6{
-    text-align: center;
-}
-
-.bg-principal {
-    background-image: url('../img/bannertop.png');
-    background-size: cover;
-   
-}
-
-.bg-fondo {
-    background-image: url('../img/background.jpg');
-    background-size: cover;
-
-}
-
-.bg-block{
-    height: 100%;
-}
-
-.blockcontent{
-    padding: 80px;
-    margin: auto;
-
-
-}
-.block {
-    bottom: 90px;
-    padding: 45px;
-    border: 2px solid;
-    border-color: rgba(199, 28, 225, 0.715);
-    border-radius: 15px;
-}
-
-.medins {
-    width: 70px;
+.botonregistrar {
     position: absolute;
-    top: 12px;
-    left: 60px;
+     bottom:165px;
+     right: 110px;
 }
-
-.medins2 {
-    width: 70px;
+.botoncancelar{
     position: absolute;
-    top: 12px;
-    right: 50px;
+    bottom:165px;
+    right: 220px;
 }
 
-ul {
+a{
     text-align: center;
-}
-
-.spacebtn {
-    margin: 10px 0px 0px 10px;
-}
-
-.btn{
-    margin: 5px;
-}
-
-
-.piedepag, p{
-    display: inline;
-    height: 30px;
-    border-radius: 20px;
-    margin: 15px;
-    padding: 2.5px;
-    bottom: 0px;
 }
