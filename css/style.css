@@ -3,17 +3,51 @@ Awakelab
 Full Stack Python 2020
 */
 
-#competencias, #contacto {
+#competencias,
+#contacto {
     padding-top: 60px;
     min-height: 700px;
 }
 
-#principal {
-    padding: 75px 2% 20px;
-    min-height: 400px;
+#titulo {
+    padding-right: 30px;
 }
 
-#competencias>div>h3 {
+.login-form {
+    width: 400px;
+    margin: 200px auto;
+  	font-size: 15px;
+}
+.login-form form {
+    margin-bottom: 15px;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+.login-form h2 {
+    margin: 0 0 15px;
+}
+.form-control, .btn {
+    min-height: 38px;
+    border-radius: 2px;
+}
+.btn {        
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#tablaDiagnostico {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#principal {
+    padding: 100px 5% 20px;
+    min-height: 700px;
+}
+
+#competencias > div >  h3 {
     color: white;
 }
 
@@ -22,12 +56,20 @@ Full Stack Python 2020
     padding-bottom: 60px;
 }
 
+#form {
+    float: left;
+    padding-right: 3%;
+}
+
+#mytable {
+    float: center;
+    padding-left: 500px;
+}
+
 #enlaces {
-    color: rgb(255, 255, 255);
+    color:white;
     padding-top: 60px;
-    border-radius: 10px;
     min-height: 100%;
-    background-color: rgba(2, 20, 28, 0.79);
 }
 
 .navbar a {
@@ -35,38 +77,29 @@ Full Stack Python 2020
 }
 
 .navbar-dark {
-    background-color: black;
+    background-color:black;
 }
 
-h1, h2, h3, h4, h5, h6, .navbar, .modal {
+h1, h2, h3, h4, h5, h6, .navbar, .modal { 
     font-family: 'Poiret One', cursive;
-    text-align: center;
 }
 
+.team-carousel, .carousel-item {
+    margin-right: auto;
+    margin-left: auto;
+}
 .bg-principal {
-    background-image: url('../img/fondoenlaces.jpeg');
+    background-image: url('../img/background.jpg');
     background-size: cover;
 }
 
 .jumbotron {
-    text-align: center;
-    color: rgb(255, 255, 255);
-    background: rgb(114, 215, 255);
-    /* Para navegadores antiguos */
-    background: rgba(2, 20, 28, 0.79);
-    width: 100%;
-    height: 100px;
-    margin: 2px;
-    padding: 15px;
-}
+    color: white;
+    background: rgb(0, 0, 0); /* Para navegadores antiguos */
+    background: rgba(0, 0, 0, 0.5); 
+ }
 
-.dentrodejumbotron {
-    margin: 2px;
-    padding: 15px;
-    width: 100%;
-}
-
-.card {
+ .card {
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -75,66 +108,14 @@ h1, h2, h3, h4, h5, h6, .navbar, .modal {
     margin: 20px 5% 50px 10%;
 }
 
-#contact-form {
-    padding-top: 3rem;
-}
+#contact-form { 
+    padding-top: 3rem; 
+} 
 
-textarea {
-    resize: none;
+textarea { 
+    resize: none; 
 }
 
 .footer p {
     display: inline;
-}
-
-.block {
-    margin: auto;
-    margin-top: 12px;
-    margin-bottom: 12px;
-    padding: 10px;
-    border: 1px solid;
-    border-color: rgba(199, 28, 225, 0.715);
-    border-radius: 15px;
-}
-
-.medins {
-    width: 55px;
-    position: absolute;
-    top: 12px;
-    left: 20px;
-}
-
-.medins2 {
-    width: 55px;
-    position: absolute;
-    top: 12px;
-    right: 5px;
-    
-}
-
-ul {
-    text-align: center;
-}
-
-.spacebtn {
-    margin: 10px 0px 0px 10px;
-}
-
-.btn{
-    margin: 5px;
-}
-
-.grandcont{
-    width: 80%;
-}
-
-.titulo{
-    text-align: center;
-}
-
-.piedepag{
-
-    border-radius: 20px;
-    margin: 15px;
-    padding: 10px;
 }
