@@ -355,22 +355,19 @@
           <form>
             <div class="form-group">
               <label for="contact-name">Nombre</label>
-              <input type="text" class="form-control" id="contact-name" 
-                  placeholder="Tu Nombre">
+              <input type="text" class="form-control" id="contact-name" required="required" placeholder="Tu Nombre">
             </div>
             <div class="form-group">
               <label for="contact-email">Email</label>
-              <input type="email" class="form-control" id="contact-email" 
-                  placeholder="Tu Email">
+              <input type="email" class="form-control" id="contact-email" required="required" placeholder="Tu Email">
             </div>
             <div class="form-group">
-              <label for="contact-msg">Email</label>
-              <textarea class="form-control" id="contact-msg" 
-                  placeholder="Tu Mensaje" rows="4"></textarea>
+              <label for="contact-msg">Mensaje</label>
+              <textarea class="form-control" id="contact-msg" required="required" placeholder="Tu Mensaje"
+                rows="4"></textarea>
             </div>
             <div class="btn-group">
-              <button type="button" class="btn btn-outline-secondary">Enviar</button>
-              <button type="button" class="btn btn-outline-secondary">Limpiar</button>
+              <button type="submit" onclick=agradecer() class="btn btn-primary btn-block">Enviar</button>
             </div>
           </form>
         </div>
@@ -430,6 +427,8 @@
     <!-- END MODAL FORMS -->
 
     <!-- jQuery, Popper.js, Bootstrap JS -->
+
+    <script src="js/js.js"></script>
     <script 
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
