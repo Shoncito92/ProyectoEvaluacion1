@@ -54,6 +54,7 @@ Full Stack Python 2020
 #equipo {
     padding-top: 60px;
     padding-bottom: 60px;
+    float: center;
 }
 
 #form {
@@ -64,6 +65,10 @@ Full Stack Python 2020
 #mytable {
     float: center;
     padding-left: 500px;
+}
+
+#especialidades {
+    color: #f7f7f7;
 }
 
 #enlaces {
@@ -84,9 +89,10 @@ h1, h2, h3, h4, h5, h6, .navbar, .modal {
     font-family: 'Poiret One', cursive;
 }
 
-.team-carousel, .carousel-item {
+#team-carousel, .carousel-item, .carousel-inner {
     margin-right: auto;
     margin-left: auto;
+    float: center;
 }
 .bg-principal {
     background-image: url('../img/background.jpg');
