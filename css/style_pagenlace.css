@@ -3,6 +3,12 @@ Awakelab
 Full Stack Python 2020
 */
 
+body{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 .navbar {
     background-color: rgba(0, 0, 0, 0.631);

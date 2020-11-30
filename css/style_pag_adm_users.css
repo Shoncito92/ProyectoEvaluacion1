@@ -8,6 +8,13 @@
     ;
 }
 
+body{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .Contenedorprincipalhijo {
     margin-top: 2px;
     padding: 20px;

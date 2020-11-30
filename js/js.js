@@ -1,10 +1,14 @@
-
-    var enviado = "msgSend.html"
+    function redireccionar() {
+      document.location.href = "pag_principal_privada.html";
+    }
       
     function agradecer() {
         alert("Tu mensaje ha sido enviado, Muchas gracias")
     }
       
+    function registrado() {
+      alert("Muchas gracias por registrarse en Clinica AwakeLab");
+    }
       
       //funcion eliminar filas
     function eliminarFila(){

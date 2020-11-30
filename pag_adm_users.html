@@ -52,7 +52,13 @@
                                 <input type="text" class="form-control" placeholder="Apellidos">
                               </div>
                               <div class="col">
-                                <input type="text" class="form-control" placeholder="Sexo">
+                                <div class="form-row">
+                                    <select class="form-control">
+                                    <option disabled>Sexo</option>
+                                    <option>Masculino</option>
+                                    <option>Femenino</option>
+                                    </select>
+                                </div>
                               </div>
                             </div>
                             <div class="form-row">
@@ -63,7 +69,7 @@
                                   <input type="text" class="form-control" placeholder="Nacionalidad">
                                 </div>
                                 <div class="col">
-                                  <input type="text" class="form-control" placeholder="Fecha de nacimiento">
+                                  <input type="date" class="form-control" placeholder="Fecha de nacimiento">
                                 </div>
                               </div>
                               <div class="form-row">
@@ -79,7 +85,7 @@
                               </div>
                           </form>
                     </div>
-                    <a href="pag_principal_publica.html"><input class="btn btn-primary botonregistrar" type="button" value="Registrarse"></a>
+                    <a href=""><input class="btn btn-primary botonregistrar" type="button" onclick= registrado() value="Registrarse"></a>
                     <a href="pag_principal_publica.html"><input class="btn btn-primary botoncancelar" type="button" value="Volver a Inicio"></a>
                 </form>
 
